@@ -2,4 +2,6 @@
 
 ## Contacts
 
+## About myself:
+
 ## Work experience:

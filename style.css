@@ -1,1 +1,83 @@
-Hello world
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: black;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #8827b047;
+    align-items: center;
+}
+* {
+    box-sizing: border-box;
+  }
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container_main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section{
+    width: 50%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+.section_title{
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #583457e8;
+    text-shadow: 2px 1px 1px white;
+}
+.section_profile{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    color: #583457bf;
+    text-shadow: 9px 5px 13px white;
+    margin-top: -110px;
+    margin-bottom: -60px;
+}
+.avatar{
+    height: 50%;
+    border-radius: 1000px;
+    border: 3px solid #3300ff2e;
+    
+}
+.section_lang{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.code{
+    margin-block-end: auto;
+    margin-block-start: auto;
+}
+.paragraph_lang{
+    margin-block-start: -10px;
+    margin-block-end: 50px;
+}
+.container_footer{
+    display: flex;
+    align-items: center;
+    
+}
